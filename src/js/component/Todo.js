@@ -24,7 +24,11 @@ export function TODO(props) {
 								setInput("");
 							}
 						}}
-						placeholder="Add a new task"
+						placeholder={
+							todos.length > 0
+								? "Please add another task"
+								: "No tasks, please add a new task"
+						}
 					/>
 					<ul className="list">
 						{todos.map((task, item) => {
