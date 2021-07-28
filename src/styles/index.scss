@@ -11,3 +11,111 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
+.main{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color:black;
+}
+
+.wbackground{
+    height:700px;
+    width:700px;
+    background:rgba(249, 250, 250, 0.959);
+    margin:0;
+    margin-top: 50px;
+    
+    
+}
+
+.todolist{
+    
+    width:525px;
+    background: white;
+    margin-left:70px;
+    margin-top: 10px;
+    box-shadow:
+    /* The top layer shadow */
+    0 1px 1px rgba(0,0,0,0.15),
+    /* The second layer */
+    0 10px 0 -5px white,
+    /* The second layer shadow */
+    0 10px 1px -4px rgba(0,0,0,0.15),
+     /* The third layer */
+    0 20px 0 -10px white,
+    /* The third layer shadow */
+    0 20px 1px -9px rgba(0,0,0,0.15);
+    /* Padding for demo purposes */
+    padding:-10px;
+
+}
+
+h1{
+    font-size:100px;
+    color:rgba(210, 220, 230, 0.9);
+    font-weight: 100;
+    
+}
+
+.list{
+    
+  font-size: 25px;
+  
+  width: 525px;
+  color:rgb(166, 168, 172);
+  padding:0 !important;
+  text-align: left;
+  font-weight: 100;
+  margin-left: 0px;
+  border-bottom: 1px dotted #ccc;
+  
+  
+}
+
+.list li{
+    list-style: none;
+  height: auto;
+  padding-top: 50px;
+  //width:500px;
+  //padding: 10px;
+  text-transform: capitalize;
+  margin-left: 40px;
+    border-bottom: 1px dotted #ccc;
+    
+}
+
+input{
+    padding-top:30px;
+    width:525px;
+  border: none;
+  border-bottom: 0.5px dotted #ccc;
+  outline:none;
+  font-weight: 100;
+  font-size: 25px;
+  color:rgb(166, 168, 172);
+}
+
+button{
+    
+    border-radius: 10px;
+    font-size: 15px;
+    margin-left: 20px;
+    background-color:white;
+    border:none;
+    color:grey;
+}
+
+::placeholder{
+    padding-left: 30px;
+    font-weight: 100;
+    font-size: 25px;
+  color:rgb(166, 168, 172);
+}
